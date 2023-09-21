@@ -1,0 +1,54 @@
+mini-projet/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com/
+│   │   │   │   ├── votrepackage/
+│   │   │   │   │   ├── config/
+│   │   │   │   │   │   ├── SecurityConfig.java
+│   │   │   │   │   │   └── JwtConfig.java         # Configuration for JWT
+│   │   │   │   │   ├── controller/
+│   │   │   │   │   │   ├── UserController.java
+│   │   │   │   │   │   └── AuthController.java
+│   │   │   │   │   ├── model/
+│   │   │   │   │   │   ├── User.java
+│   │   │   │   │   │   ├── Role.java
+│   │   │   │   │   │   └── JwtResponse.java       # Model for JWT response
+│   │   │   │   │   ├── repository/
+│   │   │   │   │   │   └── UserRepository.java
+│   │   │   │   │   ├── service/
+│   │   │   │   │   │   ├── UserService.java
+│   │   │   │   │   │   ├── AuthService.java
+│   │   │   │   │   │   └── JwtService.java        # Service for JWT operations
+│   │   │   │   │   ├── util/
+│   │   │   │   │   │   └── DataGenerator.java
+│   │   │   │   │   ├── security/                  # Security related classes
+│   │   │   │   │   │   ├── JwtAuthenticationFilter.java
+│   │   │   │   │   │   └── JwtAuthorizationFilter.java
+│   │   │   │   │   └── MiniProjetApplication.java
+│   │   │
+│   │   └── resources/
+│   │       ├── application.properties
+│   │
+│   ├── test/
+│   │   ├── java/
+│   │   │   ├── com/
+│   │   │   │   ├── votrepackage/
+│   │   │   │   │   ├── config/
+│   │   │   │   │   │   └── SecurityConfigTest.java
+│   │   │   │   │   ├── controller/
+│   │   │   │   │   │   ├── UserControllerTest.java
+│   │   │   │   │   │   └── AuthControllerTest.java
+│   │   │   │   │   ├── repository/
+│   │   │   │   │   │   └── UserRepositoryTest.java
+│   │   │   │   │   ├── service/
+│   │   │   │   │   │   ├── UserServiceTest.java
+│   │   │   │   │   │   └── AuthServiceTest.java
+│   │   │   │   │   └── util/
+│   │   │   │   │       └── DataGeneratorTest.java
+│   │   │
+│   │   └── resources/
+│   │       ├── application-test.properties
+│   │
+└── pom.xml
